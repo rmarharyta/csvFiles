@@ -1,0 +1,36 @@
+CREATE DATABASE csvUpload;
+GO
+
+USE csvUpload;
+GO
+
+CREATE TABLE Users (
+    UserId VARCHAR(36) PRIMARY KEY DEFAULT NEWID(),
+    Email VARCHAR(150) UNIQUE NOT NULL,
+    PasswordHash VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE CsvFiles (
+    FileId VARCHAR(36) PRIMARY KEY DEFAULT NEWID(),
+    UserId VARCHAR(36) NOT NULL,
+    FileName NVARCHAR(150) NOT NULL,
+    UploadDate DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_CsvFiles_Users FOREIGN KEY (UserId)
+        REFERENCES Users(UserId)
+        ON DELETE CASCADE
+);
+
+CREATE TABLE CsvRecords (
+    RecordID INT IDENTITY(1,1) PRIMARY KEY,
+    FileId VARCHAR(36) NOT NULL,
+    Name NVARCHAR(150) NOT NULL,
+    BirthDate DATE NOT NULL,
+    Married BIT NOT NULL,
+    Phone NVARCHAR(50),
+    Salary DECIMAL(18,2),
+    CONSTRAINT FK_CsvRecords_CsvFiles FOREIGN KEY (FileId)
+        REFERENCES CsvFiles(FileId)
+        ON DELETE CASCADE
+);
+
+SELECT * FROM Users;
