@@ -1,0 +1,31 @@
+﻿@model List<YourProject.Models.CsvFile>
+@{
+    ViewData["Title"] = "My Files";
+}
+
+<h2>Мої файли</h2>
+
+<table class="table table-striped" id="filesTable">
+    <thead>
+        <tr>
+            <th onclick="sortTable('filesTable', 0)" style="cursor:pointer">File Name</th>
+            <th onclick="sortTable('filesTable', 1)" style="cursor:pointer">Upload Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var file in Model)
+        {
+            <tr>
+                <td>@file.FileName</td>
+                <td>
+                    <a class="btn btn-sm btn-info" href="@Url.Action("Details", "Home", new { fileId = file.FileId })">Details</a>
+                    <form asp-action="DeleteFile" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@file.FileId" />
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

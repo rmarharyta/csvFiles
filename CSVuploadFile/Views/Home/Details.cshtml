@@ -1,0 +1,77 @@
+﻿@model List<YourProject.Models.CsvRecord>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Details";
+}
+
+<h2>Records</h2>
+<h4>Click on a column to sort the table. Delete updates table instantly.</h4>
+
+<table class="table table-bordered" id="recordsTable">
+    <thead>
+        <tr>
+            <th onclick="sortTable(0)" style="cursor:pointer">Name</th>
+            <th onclick="sortTable(1)" style="cursor:pointer">BirthDate</th>
+            <th onclick="sortTable(2)" style="cursor:pointer">Married</th>
+            <th onclick="sortTable(3)" style="cursor:pointer">Phone</th>
+            <th onclick="sortTable(4)" style="cursor:pointer">Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var row in Model)
+        {
+            <tr id="row-@row.RecordId">
+                <td>@row.Name</td>
+                <td>@row.BirthDate.ToShortDateString()</td>
+                <td>@row.Married</td>
+                <td>@row.Phone</td>
+                <td>@row.Salary</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" href="@Url.Action("Edit", "Home", new { id = row.RecordId })">Edit</a>
+
+                    <form id="form-@row.RecordId" asp-action="Delete" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@row.RecordId" />
+                        <button type="button" class="btn btn-sm btn-danger" onclick="submitForm(@row.RecordId)">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-secondary" href="@Url.Action("ListFiles", "Home")">Back to My Files</a>
+
+<script>
+    function sortTable(colIndex) {
+        const table = document.getElementById("recordsTable");
+        const rows = Array.from(table.tBodies[0].rows);
+        const asc = table.getAttribute('data-sort-col') != colIndex || table.getAttribute('data-sort-dir') == 'desc';
+
+        rows.sort((a, b) => {
+            let x = a.cells[colIndex].innerText.toLowerCase();
+            let y = b.cells[colIndex].innerText.toLowerCase();
+
+            if (!isNaN(Date.parse(x)) && !isNaN(Date.parse(y))) {
+                x = new Date(x);
+                y = new Date(y);
+            } else if (!isNaN(parseFloat(x)) && !isNaN(parseFloat(y))) {
+                x = parseFloat(x);
+                y = parseFloat(y);
+            }
+
+            return asc ? (x > y ? 1 : -1) : (x < y ? 1 : -1);
+        });
+
+        rows.forEach(row => table.tBodies[0].appendChild(row));
+        table.setAttribute('data-sort-col', colIndex);
+        table.setAttribute('data-sort-dir', asc ? 'asc' : 'desc');
+    }
+
+    function submitForm(recordId) {
+        if (!confirm("Are you sure you want to delete this row?")) return;
+        document.getElementById("form-" + recordId).submit();
+    }
+</script>

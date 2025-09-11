@@ -1,0 +1,416 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\home\\listfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\home\\listfiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\models\\csvstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:models\\csvstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\models\\csvrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|solutionrelative:models\\csvrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\models\\csvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|solutionrelative:models\\csvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\healschecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:healschecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\csvuploadfile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile.csproj|solutionrelative:csvuploadfile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|c:\\users\\marharyta\\onedrive\\desktop\\csvfiles\\csvuploadfile\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04091EBB-5AE8-4463-BB01-EC475DA1A61B}|CSVuploadFile_Back.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CsvFile.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CsvFile.cs",
+              "RelativeDocumentMoniker": "Models\\CsvFile.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CsvFile.cs",
+              "RelativeToolTip": "Models\\CsvFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:46:53.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T03:09:08.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:57:37.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:57:35.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HealsChecker.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\HealsChecker.cs",
+              "RelativeDocumentMoniker": "HealsChecker.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\HealsChecker.cs",
+              "RelativeToolTip": "HealsChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T02:57:29.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T02:57:28.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:35:53.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CSVstruct.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CSVstruct.cs",
+              "RelativeDocumentMoniker": "Models\\CSVstruct.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CSVstruct.cs",
+              "RelativeToolTip": "Models\\CSVstruct.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T02:17:22.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-11T02:12:06.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListFiles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\ListFiles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ListFiles.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\ListFiles.cshtml",
+              "RelativeToolTip": "Views\\Home\\ListFiles.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:08:02.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:03:35.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:03:27.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T02:01:23.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T01:59:47.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CSVuploadFile",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\CSVuploadFile.csproj",
+              "RelativeDocumentMoniker": "CSVuploadFile.csproj",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\CSVuploadFile.csproj",
+              "RelativeToolTip": "CSVuploadFile.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-11T01:53:24.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T01:28:31.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T01:22:48.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-11T01:19:09.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T21:56:27.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CsvRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CsvRecord.cs",
+              "RelativeDocumentMoniker": "Models\\CsvRecord.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\CsvRecord.cs",
+              "RelativeToolTip": "Models\\CsvRecord.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:48:17.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:46:10.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:37:40.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Marharyta\\OneDrive\\Desktop\\csvFiles\\CSVuploadFile\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:06:29.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - CSV Upload</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function sortTable(tableId, colIndex) {
+        const table = document.getElementById(tableId);
+        const rows = Array.from(table.tBodies[0].rows);
+        const asc = table.getAttribute('data-sort-col') != colIndex || table.getAttribute('data-sort-dir') == 'desc';
+
+        rows.sort((a, b) => {
+        let x = a.cells[colIndex].innerText.toLowerCase();
+        let y = b.cells[colIndex].innerText.toLowerCase();
+
+        if (!isNaN(Date.parse(x)) && !isNaN(Date.parse(y))) {
+        x = new Date(x);
+        y = new Date(y);
+        } else if (!isNaN(parseFloat(x)) && !isNaN(parseFloat(y))) {
+        x = parseFloat(x);
+        y = parseFloat(y);
+        }
+
+        return asc ? (x > y ? 1 : -1) : (x < y ? 1 : -1);
+        });
+
+        rows.forEach(row => table.tBodies[0].appendChild(row));
+
+        table.setAttribute('data-sort-col', colIndex);
+        table.setAttribute('data-sort-dir', asc ? 'asc' : 'desc');
+        }
+    </script>
+</head>
+<body>
+    @if (!string.Equals(currentController, "Account", StringComparison.OrdinalIgnoreCase))
+    {
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">CSV Upload</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Upload", "Home")">Upload CSV</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Home")">My Files</a></li>
+                    </ul>
+                    <form class="d-flex" asp-controller="Account" asp-action="Logout" method="post">
+                        <button class="btn btn-outline-danger" type="submit">Logout</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    }
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+</html>

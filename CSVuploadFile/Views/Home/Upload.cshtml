@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Upload CSV";
+}
+
+<h2>Upload CSV</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="file" class="form-label">Choose CSV file</label>
+        <input type="file" class="form-control" id="file" name="file" />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="text-danger mt-2">
+        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+        {
+            <p>@error.ErrorMessage</p>
+        }
+    </div>
+}

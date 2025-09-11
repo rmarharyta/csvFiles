@@ -1,0 +1,13 @@
+﻿<body>
+    <div style="display:flex; justify-content:center; align-items:center; height:100vh;">
+        <div>
+            <h2 style="text-align:center;">Register</h2>
+            <form asp-action="Register" method="post" style="display:flex; flex-direction:column; gap:10px; width:250px;">
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <button type="submit">Register</button>
+                @Html.ValidationSummary()
+            </form>
+        </div>
+    </div>
+</body>
