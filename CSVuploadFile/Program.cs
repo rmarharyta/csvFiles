@@ -19,7 +19,7 @@ namespace CSVuploadFile_Back
             builder.Services.AddControllersWithViews();
 
             // cookie
-            builder.Services.AddAuthentication("Cookies") // <-- тут має бути саме "Cookies"
+            builder.Services.AddAuthentication("Cookies") 
                 .AddCookie("Cookies", options =>
                 {
                     options.LoginPath = "/Account/Login";
@@ -49,8 +49,6 @@ namespace CSVuploadFile_Back
                 name: "default",
                 pattern: "{controller=Account}/{action=Index}/{id?}");
            
-            app.MapHealthChecks("/healthz");
-
            
             app.Run();
         }
